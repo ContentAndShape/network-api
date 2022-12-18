@@ -1,6 +1,6 @@
 import logging
 
-from .settings import Settings, _settings
+from .settings import Settings, settings
 
 
 def _configure_logger(logger: logging.Logger, settings: Settings) -> None:
@@ -31,4 +31,4 @@ def get_logger(settings: Settings) -> logging.Logger:
     return logger
 
 
-logger = get_logger(settings=_settings)
+logger = get_logger(settings=settings)
