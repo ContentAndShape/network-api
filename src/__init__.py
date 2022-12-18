@@ -15,4 +15,8 @@ def create_app() -> Flask:
 app = create_app()
 asgi_app = WsgiToAsgi(app)
 
-import src.api.routers
+from src.api.routers import (
+    users,
+    posts,
+    comments,
+)
