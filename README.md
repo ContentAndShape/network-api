@@ -4,4 +4,5 @@ App framework - Flask
 DB - PostgreSQL  
 ORM - SQLAlchemy  
 DB driver - asyncpg  
-General purpose parser - Pydantic  
+General purpose parsing, serialization - Pydantic  
+Migrations - Alembic  
